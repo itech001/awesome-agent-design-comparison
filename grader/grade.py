@@ -10,7 +10,7 @@ from pathlib import Path
 import click
 from dotenv import load_dotenv
 
-from grader.loaders import load_result_file
+from grader.loaders import load_questions_by_id, load_result_file
 from grader.report import render_per_framework
 from grader.score import aggregate, score_result_file
 
@@ -27,7 +27,8 @@ load_dotenv()
 def cli(result_path: str, dataset_path: str, judge: str, report_dir: str | None) -> None:
     rf = load_result_file(result_path)
     scored = score_result_file(rf, dataset_path=dataset_path, judge=judge)
-    agg = aggregate(scored)
+    type_by_qid = {qid: q.type for qid, q in load_questions_by_id(dataset_path).items()}
+    agg = aggregate(scored, type_by_qid=type_by_qid)
     click.echo(f"{rf.framework}: overall={agg['overall']:.1%} ({agg['count']} questions)")
     if report_dir:
         out_dir = Path(report_dir)

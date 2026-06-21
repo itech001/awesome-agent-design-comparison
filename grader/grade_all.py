@@ -11,7 +11,7 @@ from pathlib import Path
 import click
 from dotenv import load_dotenv
 
-from grader.loaders import load_result_file
+from grader.loaders import load_questions_by_id, load_result_file
 from grader.report import render_comparison, render_per_framework
 from grader.score import aggregate, score_result_file
 
@@ -40,12 +40,13 @@ def cli(judge: str, report_dir: str) -> None:
     out_dir = Path(report_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    type_by_qid = {qid: q.type for qid, q in load_questions_by_id(_DATASET).items()}
 
     summaries = []
     for p in results:
         rf = load_result_file(p)
         scored = score_result_file(rf, dataset_path=_DATASET, judge=judge)
-        agg = aggregate(scored)
+        agg = aggregate(scored, type_by_qid=type_by_qid)
         summaries.append({
             "framework": rf.framework,
             "model": rf.model,

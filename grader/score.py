@@ -42,8 +42,13 @@ def score_result_file(
     return scored
 
 
-def aggregate(scored: list[Score]) -> dict:
-    """Aggregate a list of per-question Scores into summary stats."""
+def aggregate(scored: list[Score], *, type_by_qid: dict[str, str] | None = None) -> dict:
+    """Aggregate a list of per-question Scores into summary stats.
+
+    type_by_qid maps question_id -> "multiple_choice" | "short_answer" from the
+    dataset's authoritative `type` field. When provided, it is used instead of
+    inferring the type from the grader output.
+    """
     if not scored:
         return {"overall": 0.0, "by_subject": {}, "by_type": {}, "count": 0}
 
@@ -53,7 +58,9 @@ def aggregate(scored: list[Score]) -> dict:
         return qid.rsplit("-", 1)[0]
 
     def _type(score: Score) -> str:
-        # heuristic: letter-answer graders produce empty per_criterion -> mc
+        if type_by_qid and score.question_id in type_by_qid:
+            return type_by_qid[score.question_id]
+        # fallback heuristic: exact grader produces empty per_criterion -> mc
         return "multiple_choice" if not score.per_criterion else "short_answer"
 
     subj_sums: dict[str, list[float]] = defaultdict(list)
