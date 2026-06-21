@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://awesome-agent-design-comparison/contract/question.schema.json",
+  "title": "Zhongkao Question",
+  "type": "object",
+  "required": ["id", "subject", "type", "question", "answer", "answer_type", "scoring", "source", "difficulty"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(chinese|math|english|physics|chemistry|biology|history|geography)-\\d{3}$",
+      "description": "<subject>-<seq>, globally unique"
+    },
+    "subject": {
+      "type": "string",
+      "enum": ["chinese", "math", "english", "physics", "chemistry", "biology", "history", "geography"]
+    },
+    "type": {
+      "type": "string",
+      "enum": ["multiple_choice", "short_answer"]
+    },
+    "question": { "type": "string", "minLength": 1 },
+    "options": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 2,
+      "description": "MC only; short_answer omits this field"
+    },
+    "answer": { "type": "string", "minLength": 1 },
+    "answer_type": { "type": "string", "enum": ["letter", "text"] },
+    "scoring": {
+      "type": "object",
+      "required": ["max_points", "method"],
+      "additionalProperties": false,
+      "properties": {
+        "max_points": { "type": "integer", "minimum": 1 },
+        "method": { "type": "string", "enum": ["exact", "rubric"] },
+        "rubric": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["criterion", "points"],
+            "additionalProperties": false,
+            "properties": {
+              "criterion": { "type": "string", "minLength": 1 },
+              "points": { "type": "integer", "minimum": 1 }
+            }
+          },
+          "description": "Present only when method=rubric"
+        }
+      }
+    },
+    "source": { "type": "string", "minLength": 1 },
+    "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] },
+    "notes": { "type": "string", "default": "" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "type": { "const": "multiple_choice" } } },
+      "then": { "required": ["options"] }
+    },
+    {
+      "if": { "properties": { "answer_type": { "const": "letter" } } },
+      "then": { "properties": { "answer": { "pattern": "^[A-Z]$" } } }
+    },
+    {
+      "if": { "properties": { "scoring": { "properties": { "method": { "const": "rubric" } } } } },
+      "then": { "properties": { "scoring": { "required": ["rubric"] } } }
+    }
+  ]
+}
