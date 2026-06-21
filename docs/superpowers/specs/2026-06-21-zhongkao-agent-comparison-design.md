@@ -397,12 +397,13 @@ The following are intentionally **not** in this spec, to keep scope tight:
 - Statistical significance testing across runs.
 - A 5th+ framework (drop-in architecture supports it, but v1 ships four).
 
-## 11. Open Items
+## 11. Resolved Items
 
-1. **Dataset authoring** — the 50 questions need to be written/translated. This
-   is implementation work, tracked in the implementation plan.
-2. **Recommended model per framework** — sensible defaults: OpenAI Agents SDK →
-   `gpt-4o`; Google ADK → `gemini-1.5-pro` (or `gemini-2.0-flash`);
-   LangGraph → model-agnostic (default `gpt-4o`); CrewAI → `gpt-4o`. To be
-   confirmed during implementation.
-3. **License** — TBD; recommend MIT for code, with dataset attribution noted.
+1. **Dataset authoring** — all 50 questions drafted from real past Zhongkao
+   papers during implementation (no user-provided seed).
+2. **Recommended model per framework** — decided:
+   - OpenAI Agents SDK → `gpt-4o`
+   - Google ADK → `gemini-1.5-pro`
+   - LangGraph → `gpt-4o` (model-agnostic by default; uses OpenAI for v1)
+   - CrewAI → `gpt-4o`
+3. **License** — MIT for code, with dataset attribution noted.
