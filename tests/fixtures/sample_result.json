@@ -1,0 +1,26 @@
+{
+  "framework": "sample",
+  "model": "test-model",
+  "generated_at": "2026-06-21T10:00:00Z",
+  "config": {"temperature": 0.0},
+  "results": [
+    {
+      "question_id": "math-001",
+      "subject": "math",
+      "type": "multiple_choice",
+      "response": "A",
+      "reasoning": "difference of squares",
+      "latency_ms": 120,
+      "raw": {"trace_id": "abc"}
+    },
+    {
+      "question_id": "math-005",
+      "subject": "math",
+      "type": "short_answer",
+      "response": "x = 12",
+      "reasoning": "subtracted 2x, added 7",
+      "latency_ms": 200,
+      "raw": {}
+    }
+  ]
+}
