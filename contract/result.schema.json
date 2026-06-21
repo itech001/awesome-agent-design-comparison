@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://awesome-agent-design-comparison/contract/result.schema.json",
+  "title": "Framework Result File",
+  "type": "object",
+  "required": ["framework", "model", "generated_at", "config", "results"],
+  "additionalProperties": false,
+  "properties": {
+    "framework": { "type": "string", "minLength": 1 },
+    "model": { "type": "string", "minLength": 1 },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 UTC"
+    },
+    "config": {
+      "type": "object",
+      "description": "Framework-specific, free-form",
+      "additionalProperties": true
+    },
+    "results": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/answerResult" }
+    }
+  },
+  "$defs": {
+    "answerResult": {
+      "type": "object",
+      "required": ["question_id", "subject", "type", "response", "reasoning", "latency_ms", "raw"],
+      "additionalProperties": false,
+      "properties": {
+        "question_id": { "type": "string", "minLength": 1 },
+        "subject": {
+          "type": "string",
+          "enum": ["chinese", "math", "english", "physics", "chemistry", "biology", "history", "geography"]
+        },
+        "type": { "type": "string", "enum": ["multiple_choice", "short_answer"] },
+        "response": { "type": "string" },
+        "reasoning": { "type": "string" },
+        "latency_ms": { "type": "integer", "minimum": 0 },
+        "raw": { "type": "object", "additionalProperties": true }
+      }
+    }
+  }
+}
