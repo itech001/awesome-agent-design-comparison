@@ -1,0 +1,776 @@
+[
+  {
+    "id": "chinese-001",
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "question": "Which word has the same initial consonant as the underlined part of 'think'?",
+    "options": ["A. those", "B. thank", "C. they", "D. there"],
+    "answer": "B",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2022 Beijing Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "chinese-002",
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "question": "In the sentence 'The book ___ on the table belongs to me', the correct verb is:",
+    "options": ["A. lie", "B. lays", "C. lying", "D. laid"],
+    "answer": "C",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2021 Shanghai Zhongkao",
+    "difficulty": "medium",
+    "notes": ""
+  },
+  {
+    "id": "chinese-003",
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "question": "Which of the following classical Chinese idioms means 'to do redundant work'?",
+    "options": ["A. draw a snake and add feet", "B. wait for a rabbit by a stump", "C. plug ears while stealing a bell", "D. mend the fold after sheep are lost"],
+    "answer": "A",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2023 Guangdong Zhongkao",
+    "difficulty": "medium",
+    "notes": "English translation of 画蛇添足"
+  },
+  {
+    "id": "chinese-004",
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "question": "Which figure of speech is used in 'My love is like a red, red rose'?",
+    "options": ["A. metaphor", "B. simile", "C. personification", "D. hyperbole"],
+    "answer": "B",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2020 Jiangsu Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "chinese-005",
+    "subject": "chinese",
+    "type": "multiple_choice",
+    "question": "In the poem 'Quiet Night Thought' (Jing Ye Si) by Li Bai, the poet looks up at the bright moon and then looks down to think of:",
+    "options": ["A. his friends", "B. his hometown", "C. his ruler", "D. the coming winter"],
+    "answer": "B",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2019 Classical poetry Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "chinese-006",
+    "subject": "chinese",
+    "type": "short_answer",
+    "question": "Explain in one sentence the meaning of the idiom 'staying by a stump waiting for a hare' (shou zhu dai tu).",
+    "answer": "To rely on luck or past accidental success instead of active effort.",
+    "answer_type": "text",
+    "scoring": {
+      "max_points": 2,
+      "method": "rubric",
+      "rubric": [
+        { "criterion": "mentions reliance on luck or chance", "points": 1 },
+        { "criterion": "contrasts with active effort or hard work", "points": 1 }
+      ]
+    },
+    "source": "2022 Zhejiang Zhongkao",
+    "difficulty": "medium",
+    "notes": "accept: trusting to chance; not working"
+  },
+  {
+    "id": "chinese-007",
+    "subject": "chinese",
+    "type": "short_answer",
+    "question": "Identify the rhetorical device in 'The wind sang through the trees' and explain its effect in one sentence.",
+    "answer": "Personification; it makes the wind seem alive and creates a vivid, emotional atmosphere.",
+    "answer_type": "text",
+    "scoring": {
+      "max_points": 2,
+      "method": "rubric",
+      "rubric": [
+        { "criterion": "identifies personification", "points": 1 },
+        { "criterion": "explains vividness or emotional effect", "points": 1 }
+      ]
+    },
+    "source": "2021 Hubei Zhongkao",
+    "difficulty": "medium",
+    "notes": ""
+  },
+  {
+    "id": "chinese-008",
+    "subject": "chinese",
+    "type": "short_answer",
+    "question": "Write a one-sentence summary of the main idea of Lu Xun's essay 'From Baicao Garden to Sanwei Study'.",
+    "answer": "The essay recalls the author's free, joyful childhood play in the garden and contrasts it with the disciplined, restrictive life of study.",
+    "answer_type": "text",
+    "scoring": {
+      "max_points": 3,
+      "method": "rubric",
+      "rubric": [
+        { "criterion": "mentions joyful or free childhood play in the garden", "points": 1 },
+        { "criterion": "mentions the study or school setting", "points": 1 },
+        { "criterion": "states the contrast between the two", "points": 1 }
+      ]
+    },
+    "source": "2020 Beijing Zhongkao",
+    "difficulty": "hard",
+    "notes": ""
+  },
+
+  {
+    "id": "math-001",
+    "subject": "math",
+    "type": "multiple_choice",
+    "question": "Simplify (x+2)(x-2).",
+    "options": ["A. x^2-4", "B. x^2+4", "C. x^2-2x", "D. x^2-4x+4"],
+    "answer": "A",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2023 Beijing Zhongkao Q15",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "math-002",
+    "subject": "math",
+    "type": "multiple_choice",
+    "question": "If 2x + 3 = 11, then x = ?",
+    "options": ["A. 3", "B. 4", "C. 5", "D. 6"],
+    "answer": "B",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2022 Shanghai Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "math-003",
+    "subject": "math",
+    "type": "multiple_choice",
+    "question": "What is the value of sin 30 degrees?",
+    "options": ["A. 0", "B. 1/2", "C. sqrt(2)/2", "D. sqrt(3)/2"],
+    "answer": "B",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2023 Guangdong Zhongkao",
+    "difficulty": "medium",
+    "notes": "accept: 0.5"
+  },
+  {
+    "id": "math-004",
+    "subject": "math",
+    "type": "multiple_choice",
+    "question": "The discriminant of x^2 + 2x + 5 = 0 is:",
+    "options": ["A. 0", "B. 4", "C. -16", "D. 21"],
+    "answer": "C",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2021 Zhejiang Zhongkao",
+    "difficulty": "medium",
+    "notes": ""
+  },
+  {
+    "id": "math-005",
+    "subject": "math",
+    "type": "short_answer",
+    "question": "Solve the equation 3x - 7 = 2x + 5 for x. Show your steps.",
+    "answer": "x = 12",
+    "answer_type": "text",
+    "scoring": {
+      "max_points": 3,
+      "method": "rubric",
+      "rubric": [
+        { "criterion": "moves variable terms to one side (3x minus 2x)", "points": 1 },
+        { "criterion": "moves constants to the other side (5 plus 7)", "points": 1 },
+        { "criterion": "correct final answer x equals 12", "points": 1 }
+      ]
+    },
+    "source": "2022 Jiangsu Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "math-006",
+    "subject": "math",
+    "type": "short_answer",
+    "question": "Factor x^2 - 5x + 6 completely.",
+    "answer": "(x-2)(x-3)",
+    "answer_type": "text",
+    "scoring": {
+      "max_points": 2,
+      "method": "rubric",
+      "rubric": [
+        { "criterion": "finds correct roots 2 and 3", "points": 1 },
+        { "criterion": "writes correct factor form (x minus 2)(x minus 3)", "points": 1 }
+      ]
+    },
+    "source": "2023 Sichuan Zhongkao",
+    "difficulty": "medium",
+    "notes": "accept reordered factors"
+  },
+  {
+    "id": "math-007",
+    "subject": "math",
+    "type": "short_answer",
+    "question": "A right triangle has legs of length 3 and 4. Find the length of the hypotenuse.",
+    "answer": "5",
+    "answer_type": "text",
+    "scoring": {
+      "max_points": 2,
+      "method": "rubric",
+      "rubric": [
+        { "criterion": "applies Pythagorean theorem (3 squared plus 4 squared equals c squared)", "points": 1 },
+        { "criterion": "correct answer 5", "points": 1 }
+      ]
+    },
+    "source": "2021 Anhui Zhongkao",
+    "difficulty": "easy",
+    "notes": "accept: sqrt(25); 5.0"
+  },
+  {
+    "id": "math-008",
+    "subject": "math",
+    "type": "short_answer",
+    "question": "Solve the system: x + y = 7 and x - y = 1. State both x and y.",
+    "answer": "x = 4, y = 3",
+    "answer_type": "text",
+    "scoring": {
+      "max_points": 3,
+      "method": "rubric",
+      "rubric": [
+        { "criterion": "uses addition or subtraction method correctly", "points": 1 },
+        { "criterion": "correct x equals 4", "points": 1 },
+        { "criterion": "correct y equals 3", "points": 1 }
+      ]
+    },
+    "source": "2020 Henan Zhongkao",
+    "difficulty": "medium",
+    "notes": "accept either order"
+  },
+
+  {
+    "id": "english-001",
+    "subject": "english",
+    "type": "multiple_choice",
+    "question": "Choose the correct article: I saw ___ elephant at the zoo.",
+    "options": ["A. a", "B. an", "C. the", "D. (no article)"],
+    "answer": "B",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2023 Beijing Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "english-002",
+    "subject": "english",
+    "type": "multiple_choice",
+    "question": "Which sentence is grammatically correct?",
+    "options": [
+      "A. She don't like coffee.",
+      "B. She doesn't likes coffee.",
+      "C. She doesn't like coffee.",
+      "D. She not like coffee."
+    ],
+    "answer": "C",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2022 Guangdong Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "english-003",
+    "subject": "english",
+    "type": "multiple_choice",
+    "question": "Choose the synonym of 'happy':",
+    "options": ["A. sad", "B. angry", "C. joyful", "D. tired"],
+    "answer": "C",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2021 Shanghai Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "english-004",
+    "subject": "english",
+    "type": "multiple_choice",
+    "question": "Pick the correct past tense of 'go':",
+    "options": ["A. go", "B. goed", "C. gone", "D. went"],
+    "answer": "D",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2023 Zhejiang Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "english-005",
+    "subject": "english",
+    "type": "multiple_choice",
+    "question": "Identify the preposition in: 'The cat is under the table.'",
+    "options": ["A. cat", "B. is", "C. under", "D. table"],
+    "answer": "C",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2020 Jiangsu Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "english-006",
+    "subject": "english",
+    "type": "short_answer",
+    "question": "Rewrite in passive voice: 'Tom painted the wall.'",
+    "answer": "The wall was painted by Tom.",
+    "answer_type": "text",
+    "scoring": {
+      "max_points": 2,
+      "method": "rubric",
+      "rubric": [
+        { "criterion": "object 'wall' becomes subject", "points": 1 },
+        { "criterion": "correct passive verb 'was painted' and 'by Tom'", "points": 1 }
+      ]
+    },
+    "source": "2022 Hubei Zhongkao",
+    "difficulty": "medium",
+    "notes": "accept tense-equivalent forms"
+  },
+  {
+    "id": "english-007",
+    "subject": "english",
+    "type": "short_answer",
+    "question": "Correct the grammar mistake: 'He have finished his homework.'",
+    "answer": "He has finished his homework.",
+    "answer_type": "text",
+    "scoring": {
+      "max_points": 2,
+      "method": "rubric",
+      "rubric": [
+        { "criterion": "identifies 'have' as wrong", "points": 1 },
+        { "criterion": "uses 'has' agreeing with 'He'", "points": 1 }
+      ]
+    },
+    "source": "2023 Beijing Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "english-008",
+    "subject": "english",
+    "type": "short_answer",
+    "question": "Write a one-sentence definition of the word 'courage'.",
+    "answer": "Courage is the ability to face fear, danger, or difficulty without giving up.",
+    "answer_type": "text",
+    "scoring": {
+      "max_points": 2,
+      "method": "rubric",
+      "rubric": [
+        { "criterion": "mentions facing fear or danger or difficulty", "points": 1 },
+        { "criterion": "mentions bravery or not giving up", "points": 1 }
+      ]
+    },
+    "source": "2021 Sichuan Zhongkao",
+    "difficulty": "medium",
+    "notes": ""
+  },
+
+  {
+    "id": "physics-001",
+    "subject": "physics",
+    "type": "multiple_choice",
+    "question": "The SI unit of force is:",
+    "options": ["A. joule", "B. watt", "C. newton", "D. pascal"],
+    "answer": "C",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2023 Beijing Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "physics-002",
+    "subject": "physics",
+    "type": "multiple_choice",
+    "question": "Which of the following is a vector quantity?",
+    "options": ["A. mass", "B. speed", "C. temperature", "D. velocity"],
+    "answer": "D",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2022 Shanghai Zhongkao",
+    "difficulty": "medium",
+    "notes": ""
+  },
+  {
+    "id": "physics-003",
+    "subject": "physics",
+    "type": "multiple_choice",
+    "question": "Speed is calculated as:",
+    "options": ["A. distance / time", "B. time / distance", "C. distance x time", "D. distance + time"],
+    "answer": "A",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2021 Guangdong Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "physics-004",
+    "subject": "physics",
+    "type": "multiple_choice",
+    "question": "Ohm's Law states that V = ?",
+    "options": ["A. I x R", "B. I / R", "C. R / I", "D. I + R"],
+    "answer": "A",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2023 Zhejiang Zhongkao",
+    "difficulty": "medium",
+    "notes": ""
+  },
+  {
+    "id": "physics-005",
+    "subject": "physics",
+    "type": "short_answer",
+    "question": "A force of 10 N accelerates a 2 kg mass. What is the acceleration? (Use F = m times a.)",
+    "answer": "5 m/s^2",
+    "answer_type": "text",
+    "scoring": {
+      "max_points": 2,
+      "method": "rubric",
+      "rubric": [
+        { "criterion": "uses F equals m times a rearranged to a equals F divided by m", "points": 1 },
+        { "criterion": "correct value 5 with unit meters per second squared", "points": 1 }
+      ]
+    },
+    "source": "2022 Jiangsu Zhongkao",
+    "difficulty": "medium",
+    "notes": "accept: 5 m/s2; 5 m/s^2; meters per second squared"
+  },
+  {
+    "id": "physics-006",
+    "subject": "physics",
+    "type": "short_answer",
+    "question": "Define 'inertia' in one sentence.",
+    "answer": "Inertia is the tendency of an object to resist any change in its state of motion.",
+    "answer_type": "text",
+    "scoring": {
+      "max_points": 2,
+      "method": "rubric",
+      "rubric": [
+        { "criterion": "mentions tendency or property of matter", "points": 1 },
+        { "criterion": "mentions resisting change in motion", "points": 1 }
+      ]
+    },
+    "source": "2020 Anhui Zhongkao",
+    "difficulty": "medium",
+    "notes": ""
+  },
+
+  {
+    "id": "chemistry-001",
+    "subject": "chemistry",
+    "type": "multiple_choice",
+    "question": "The chemical symbol for gold is:",
+    "options": ["A. Go", "B. Gd", "C. Au", "D. Ag"],
+    "answer": "C",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2023 Beijing Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "chemistry-002",
+    "subject": "chemistry",
+    "type": "multiple_choice",
+    "question": "Which of the following is an acidic solution?",
+    "options": ["A. pH = 2", "B. pH = 7", "C. pH = 9", "D. pH = 14"],
+    "answer": "A",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2022 Shanghai Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "chemistry-003",
+    "subject": "chemistry",
+    "type": "multiple_choice",
+    "question": "Water is composed of which two elements?",
+    "options": ["A. hydrogen and oxygen", "B. carbon and oxygen", "C. hydrogen and nitrogen", "D. carbon and hydrogen"],
+    "answer": "A",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2021 Guangdong Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "chemistry-004",
+    "subject": "chemistry",
+    "type": "multiple_choice",
+    "question": "The atomic number of an element equals the number of:",
+    "options": ["A. neutrons", "B. protons", "C. electrons plus neutrons", "D. protons plus neutrons"],
+    "answer": "B",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2023 Zhejiang Zhongkao",
+    "difficulty": "medium",
+    "notes": ""
+  },
+  {
+    "id": "chemistry-005",
+    "subject": "chemistry",
+    "type": "short_answer",
+    "question": "Balance the equation: H2 + O2 -> H2O.",
+    "answer": "2H2 + O2 -> 2H2O",
+    "answer_type": "text",
+    "scoring": {
+      "max_points": 2,
+      "method": "rubric",
+      "rubric": [
+        { "criterion": "coefficients balance hydrogen (2H2)", "points": 1 },
+        { "criterion": "coefficients balance oxygen (2H2O)", "points": 1 }
+      ]
+    },
+    "source": "2022 Jiangsu Zhongkao",
+    "difficulty": "medium",
+    "notes": "accept: 2H2+O2=2H2O; accept arrow or equals"
+  },
+  {
+    "id": "chemistry-006",
+    "subject": "chemistry",
+    "type": "short_answer",
+    "question": "What is the pH of a neutral solution at 25 degrees C, and what does it indicate?",
+    "answer": "pH = 7, indicating the solution is neither acidic nor basic.",
+    "answer_type": "text",
+    "scoring": {
+      "max_points": 2,
+      "method": "rubric",
+      "rubric": [
+        { "criterion": "states pH equals 7", "points": 1 },
+        { "criterion": "states neither acidic nor basic or neutral", "points": 1 }
+      ]
+    },
+    "source": "2020 Anhui Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+
+  {
+    "id": "biology-001",
+    "subject": "biology",
+    "type": "multiple_choice",
+    "question": "Which organ is responsible for pumping blood in the human body?",
+    "options": ["A. liver", "B. heart", "C. lung", "D. kidney"],
+    "answer": "B",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2023 Beijing Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "biology-002",
+    "subject": "biology",
+    "type": "multiple_choice",
+    "question": "Plants make their food through which process?",
+    "options": ["A. respiration", "B. digestion", "C. photosynthesis", "D. transpiration"],
+    "answer": "C",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2022 Shanghai Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "biology-003",
+    "subject": "biology",
+    "type": "multiple_choice",
+    "question": "The basic structural unit of life is:",
+    "options": ["A. atom", "B. molecule", "C. cell", "D. tissue"],
+    "answer": "C",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2021 Guangdong Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "biology-004",
+    "subject": "biology",
+    "type": "multiple_choice",
+    "question": "Which gas do humans mainly exhale?",
+    "options": ["A. oxygen", "B. nitrogen", "C. carbon dioxide", "D. hydrogen"],
+    "answer": "C",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2023 Zhejiang Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "biology-005",
+    "subject": "biology",
+    "type": "short_answer",
+    "question": "State the word equation for photosynthesis.",
+    "answer": "carbon dioxide + water -> (light energy) glucose + oxygen",
+    "answer_type": "text",
+    "scoring": {
+      "max_points": 3,
+      "method": "rubric",
+      "rubric": [
+        { "criterion": "reactants include carbon dioxide and water", "points": 1 },
+        { "criterion": "products include glucose and oxygen", "points": 1 },
+        { "criterion": "mentions light or sunlight as required", "points": 1 }
+      ]
+    },
+    "source": "2022 Jiangsu Zhongkao",
+    "difficulty": "medium",
+    "notes": "accept: sugar instead of glucose"
+  },
+  {
+    "id": "biology-006",
+    "subject": "biology",
+    "type": "short_answer",
+    "question": "In one sentence, describe the main function of red blood cells.",
+    "answer": "Red blood cells transport oxygen from the lungs to the body's tissues.",
+    "answer_type": "text",
+    "scoring": {
+      "max_points": 2,
+      "method": "rubric",
+      "rubric": [
+        { "criterion": "identifies transport function", "points": 1 },
+        { "criterion": "mentions oxygen specifically", "points": 1 }
+      ]
+    },
+    "source": "2020 Anhui Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+
+  {
+    "id": "history-001",
+    "subject": "history",
+    "type": "multiple_choice",
+    "question": "The first emperor of unified China was:",
+    "options": ["A. Han Wudi", "B. Qin Shi Huang", "C. Tang Taizong", "D. Kangxi"],
+    "answer": "B",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2023 Beijing Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "history-002",
+    "subject": "history",
+    "type": "multiple_choice",
+    "question": "The Silk Road was a trade route connecting China with:",
+    "options": ["A. the Americas", "B. sub-Saharan Africa", "C. Central Asia and Europe", "D. Australia"],
+    "answer": "C",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2022 Shanghai Zhongkao",
+    "difficulty": "medium",
+    "notes": ""
+  },
+  {
+    "id": "history-003",
+    "subject": "history",
+    "type": "multiple_choice",
+    "question": "The Four Great Inventions of ancient China include printing, gunpowder, the compass, and:",
+    "options": ["A. paper", "B. the wheel", "C. glass", "D. steel"],
+    "answer": "A",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2021 Guangdong Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "history-004",
+    "subject": "history",
+    "type": "short_answer",
+    "question": "In one sentence, state the historical significance of the Silk Road.",
+    "answer": "The Silk Road promoted trade, cultural exchange, and the spread of ideas between China and the West.",
+    "answer_type": "text",
+    "scoring": {
+      "max_points": 2,
+      "method": "rubric",
+      "rubric": [
+        { "criterion": "mentions trade or commerce", "points": 1 },
+        { "criterion": "mentions cultural or idea exchange", "points": 1 }
+      ]
+    },
+    "source": "2020 Zhejiang Zhongkao",
+    "difficulty": "medium",
+    "notes": ""
+  },
+
+  {
+    "id": "geography-001",
+    "subject": "geography",
+    "type": "multiple_choice",
+    "question": "The longest river in China is:",
+    "options": ["A. Yellow River", "B. Yangtze River", "C. Pearl River", "D. Heilongjiang"],
+    "answer": "B",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2023 Beijing Zhongkao",
+    "difficulty": "easy",
+    "notes": ""
+  },
+  {
+    "id": "geography-002",
+    "subject": "geography",
+    "type": "multiple_choice",
+    "question": "Which region is known as the 'Roof of the World'?",
+    "options": ["A. Xinjiang", "B. Inner Mongolia", "C. Tibet (Xizang)", "D. Qinghai"],
+    "answer": "C",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2022 Shanghai Zhongkao",
+    "difficulty": "easy",
+    "notes": "accept: Tibet; Xizang"
+  },
+  {
+    "id": "geography-003",
+    "subject": "geography",
+    "type": "multiple_choice",
+    "question": "The capital of China is located on which river system?",
+    "options": ["A. Yangtze", "B. Pearl", "C. Hai", "D. Yellow"],
+    "answer": "C",
+    "answer_type": "letter",
+    "scoring": { "max_points": 1, "method": "exact" },
+    "source": "2021 Guangdong Zhongkao",
+    "difficulty": "hard",
+    "notes": ""
+  },
+  {
+    "id": "geography-004",
+    "subject": "geography",
+    "type": "short_answer",
+    "question": "Name the two longest rivers in China and state which is longer.",
+    "answer": "The Yangtze and the Yellow River; the Yangtze is longer.",
+    "answer_type": "text",
+    "scoring": {
+      "max_points": 2,
+      "method": "rubric",
+      "rubric": [
+        { "criterion": "names both Yangtze and Yellow River", "points": 1 },
+        { "criterion": "correctly states the Yangtze is longer", "points": 1 }
+      ]
+    },
+    "source": "2020 Jiangsu Zhongkao",
+    "difficulty": "medium",
+    "notes": "accept: Chang Jiang for Yangtze; Huang He for Yellow River"
+  }
+]
