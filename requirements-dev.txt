@@ -1,0 +1,9 @@
+# Dev/test dependencies for the foundation phase.
+# Frameworks each carry their own requirements.txt; the grader carries its own.
+pytest>=8.0
+pytest-cov>=5.0
+jsonschema>=4.21
+pydantic>=2.6
+click>=8.1
+python-dotenv>=1.0
+openai>=1.30
