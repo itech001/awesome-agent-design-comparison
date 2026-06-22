@@ -20,7 +20,7 @@ def test_agent_uses_structured_output_type():
 
 
 def test_instructions_mention_exam_context():
-    assert "Zhongkao" in AGENT_INSTRUCTIONS
+    assert "senior secondary school entrance exam" in AGENT_INSTRUCTIONS.lower()
     assert "multiple choice" in AGENT_INSTRUCTIONS.lower()
 
 

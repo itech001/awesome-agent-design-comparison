@@ -1,8 +1,7 @@
 # Awesome Agent Design Comparison
 
 A benchmark and design-comparison project that evaluates how different LLM agent
-frameworks solve the same exam task — the Chinese **Zhongkao** (中考, the senior
-secondary school entrance exam).
+frameworks solve the same exam task — the senior secondary school entrance exam.
 
 We build a shared dataset of 50 translated exam questions spanning 8 subjects,
 then implement the same solver independently with four popular agent frameworks.
@@ -18,7 +17,7 @@ results are directly comparable.
 
 ## The Dataset
 
-50 Zhongkao questions, translated to English, covering:
+50 senior secondary school entrance exam questions, translated to English, covering:
 Chinese, Math, English, Physics, Chemistry, Biology, History, Geography.
 
 Question types: multiple choice (32) + short answer (18). See [`dataset/`](dataset/).
@@ -109,5 +108,6 @@ Add a framework: drop a new `frameworks/<name>/` folder with a `run.sh` +
 
 ## License
 
-MIT (code). Dataset questions are based on/inspired by real past Zhongkao
+MIT (code). Dataset questions are based on/inspired by real past senior secondary
+school entrance exam
 papers, translated to English; see `source` fields for attribution.

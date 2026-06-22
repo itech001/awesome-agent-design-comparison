@@ -68,3 +68,40 @@ def test_run_handles_runner_error_records_empty_response(tmp_path):
     for r in data["results"]:
         assert r["response"] == ""
         assert "error" in r["raw"]
+
+
+def test_run_records_validator_status_when_revises(tmp_path):
+    """When the inner loop revises, run.py records attempts/accepted/validator_answer."""
+    out = tmp_path / "results.json"
+
+    class ScriptedResolver:
+        def __init__(self):
+            self.i = 0
+
+        def __call__(self, agent, prompt):
+            self.i += 1
+            resp = "B" if self.i == 1 else "A"
+            return f'{{"response": "{resp}", "reasoning": "r"}}'
+
+    class ScriptedValidator:
+        def __init__(self):
+            self.i = 0
+
+        def __call__(self, agent, prompt):
+            self.i += 1
+            if self.i == 1:
+                return '{"accepted": false, "feedback": "wrong", "checked_answer": "A"}'
+            return '{"accepted": true, "feedback": "", "checked_answer": "A"}'
+
+    run_module.run(
+        dataset_path=str(_DATASET),
+        output_path=str(out),
+        resolver_runner=ScriptedResolver(),
+        validator_runner=ScriptedValidator(),
+    )
+    data = json.loads(out.read_text())
+    first_mc = next(r for r in data["results"] if r["type"] == "multiple_choice")
+    assert first_mc["response"] == "A"
+    assert first_mc["raw"]["attempts"] == 2
+    assert first_mc["raw"]["accepted"] is True
+    assert first_mc["raw"]["validator_answer"] == "A"

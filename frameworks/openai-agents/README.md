@@ -1,6 +1,7 @@
-# OpenAI Agents SDK — Zhongkao Solver
+# OpenAI Agents SDK — Entrance Exam Solver
 
-Self-contained solver for the shared Zhongkao dataset, implemented with the
+Self-contained solver for the shared senior secondary school entrance exam
+dataset, implemented with the
 [OpenAI Agents SDK](https://github.com/openai/openai-agents-python).
 
 ## Design (idiomatic SDK)
@@ -8,7 +9,7 @@ Self-contained solver for the shared Zhongkao dataset, implemented with the
 This implementation leans into the SDK's core abstraction: an **Agent** is
 instructions + model + structured output.
 
-- **Single agent** (`ZhongkaoSolver`) — no handoffs, no sub-agents. Every
+- **Single agent** (`ExamSolver`) — no handoffs, no sub-agents. Every
   question goes to one agent.
 - **Structured output** — the agent's `output_type` is the `AgentAnswer` Pydantic
   model (`response` + `reasoning`). The SDK returns a parsed instance via

@@ -55,7 +55,7 @@ class LLMJudgeGrader(Grader):
 
     def _prompt(self, question: Question, answer: AnswerResult, criterion: str, available: int) -> str:
         return (
-            f"You are grading a Zhongkao exam answer.\n"
+            f"You are grading a senior secondary school entrance exam answer.\n"
             f"Question: {question.question}\n"
             f"Reference answer: {question.answer}\n"
             f"Student response: {answer.response}\n\n"

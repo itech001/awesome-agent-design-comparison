@@ -4,11 +4,19 @@
     "subject": "chinese",
     "type": "multiple_choice",
     "question": "Which word has the same initial consonant as the underlined part of 'think'?",
-    "options": ["A. those", "B. thank", "C. they", "D. there"],
+    "options": [
+      "A. those",
+      "B. thank",
+      "C. they",
+      "D. there"
+    ],
     "answer": "B",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2022 Beijing Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2022 Beijing senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -17,11 +25,19 @@
     "subject": "chinese",
     "type": "multiple_choice",
     "question": "In the sentence 'The book ___ on the table belongs to me', the correct verb is:",
-    "options": ["A. lie", "B. lays", "C. lying", "D. laid"],
+    "options": [
+      "A. lie",
+      "B. lays",
+      "C. lying",
+      "D. laid"
+    ],
     "answer": "C",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2021 Shanghai Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2021 Shanghai senior secondary school entrance exam",
     "difficulty": "medium",
     "notes": ""
   },
@@ -30,11 +46,19 @@
     "subject": "chinese",
     "type": "multiple_choice",
     "question": "Which of the following classical Chinese idioms means 'to do redundant work'?",
-    "options": ["A. draw a snake and add feet", "B. wait for a rabbit by a stump", "C. plug ears while stealing a bell", "D. mend the fold after sheep are lost"],
+    "options": [
+      "A. draw a snake and add feet",
+      "B. wait for a rabbit by a stump",
+      "C. plug ears while stealing a bell",
+      "D. mend the fold after sheep are lost"
+    ],
     "answer": "A",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2023 Guangdong Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2023 Guangdong senior secondary school entrance exam",
     "difficulty": "medium",
     "notes": "English translation of 画蛇添足"
   },
@@ -43,11 +67,19 @@
     "subject": "chinese",
     "type": "multiple_choice",
     "question": "Which figure of speech is used in 'My love is like a red, red rose'?",
-    "options": ["A. metaphor", "B. simile", "C. personification", "D. hyperbole"],
+    "options": [
+      "A. metaphor",
+      "B. simile",
+      "C. personification",
+      "D. hyperbole"
+    ],
     "answer": "B",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2020 Jiangsu Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2020 Jiangsu senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -56,11 +88,19 @@
     "subject": "chinese",
     "type": "multiple_choice",
     "question": "In the poem 'Quiet Night Thought' (Jing Ye Si) by Li Bai, the poet looks up at the bright moon and then looks down to think of:",
-    "options": ["A. his friends", "B. his hometown", "C. his ruler", "D. the coming winter"],
+    "options": [
+      "A. his friends",
+      "B. his hometown",
+      "C. his ruler",
+      "D. the coming winter"
+    ],
     "answer": "B",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2019 Classical poetry Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2019 Classical poetry senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -75,11 +115,17 @@
       "max_points": 2,
       "method": "rubric",
       "rubric": [
-        { "criterion": "mentions reliance on luck or chance", "points": 1 },
-        { "criterion": "contrasts with active effort or hard work", "points": 1 }
+        {
+          "criterion": "mentions reliance on luck or chance",
+          "points": 1
+        },
+        {
+          "criterion": "contrasts with active effort or hard work",
+          "points": 1
+        }
       ]
     },
-    "source": "2022 Zhejiang Zhongkao",
+    "source": "2022 Zhejiang senior secondary school entrance exam",
     "difficulty": "medium",
     "notes": "accept: trusting to chance; not working"
   },
@@ -94,11 +140,17 @@
       "max_points": 2,
       "method": "rubric",
       "rubric": [
-        { "criterion": "identifies personification", "points": 1 },
-        { "criterion": "explains vividness or emotional effect", "points": 1 }
+        {
+          "criterion": "identifies personification",
+          "points": 1
+        },
+        {
+          "criterion": "explains vividness or emotional effect",
+          "points": 1
+        }
       ]
     },
-    "source": "2021 Hubei Zhongkao",
+    "source": "2021 Hubei senior secondary school entrance exam",
     "difficulty": "medium",
     "notes": ""
   },
@@ -113,26 +165,42 @@
       "max_points": 3,
       "method": "rubric",
       "rubric": [
-        { "criterion": "mentions joyful or free childhood play in the garden", "points": 1 },
-        { "criterion": "mentions the study or school setting", "points": 1 },
-        { "criterion": "states the contrast between the two", "points": 1 }
+        {
+          "criterion": "mentions joyful or free childhood play in the garden",
+          "points": 1
+        },
+        {
+          "criterion": "mentions the study or school setting",
+          "points": 1
+        },
+        {
+          "criterion": "states the contrast between the two",
+          "points": 1
+        }
       ]
     },
-    "source": "2020 Beijing Zhongkao",
+    "source": "2020 Beijing senior secondary school entrance exam",
     "difficulty": "hard",
     "notes": ""
   },
-
   {
     "id": "math-001",
     "subject": "math",
     "type": "multiple_choice",
     "question": "Simplify (x+2)(x-2).",
-    "options": ["A. x^2-4", "B. x^2+4", "C. x^2-2x", "D. x^2-4x+4"],
+    "options": [
+      "A. x^2-4",
+      "B. x^2+4",
+      "C. x^2-2x",
+      "D. x^2-4x+4"
+    ],
     "answer": "A",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2023 Beijing Zhongkao Q15",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2023 Beijing senior secondary school entrance exam Q15",
     "difficulty": "easy",
     "notes": ""
   },
@@ -141,11 +209,19 @@
     "subject": "math",
     "type": "multiple_choice",
     "question": "If 2x + 3 = 11, then x = ?",
-    "options": ["A. 3", "B. 4", "C. 5", "D. 6"],
+    "options": [
+      "A. 3",
+      "B. 4",
+      "C. 5",
+      "D. 6"
+    ],
     "answer": "B",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2022 Shanghai Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2022 Shanghai senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -154,11 +230,19 @@
     "subject": "math",
     "type": "multiple_choice",
     "question": "What is the value of sin 30 degrees?",
-    "options": ["A. 0", "B. 1/2", "C. sqrt(2)/2", "D. sqrt(3)/2"],
+    "options": [
+      "A. 0",
+      "B. 1/2",
+      "C. sqrt(2)/2",
+      "D. sqrt(3)/2"
+    ],
     "answer": "B",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2023 Guangdong Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2023 Guangdong senior secondary school entrance exam",
     "difficulty": "medium",
     "notes": "accept: 0.5"
   },
@@ -167,11 +251,19 @@
     "subject": "math",
     "type": "multiple_choice",
     "question": "The discriminant of x^2 + 2x + 5 = 0 is:",
-    "options": ["A. 0", "B. 4", "C. -16", "D. 21"],
+    "options": [
+      "A. 0",
+      "B. 4",
+      "C. -16",
+      "D. 21"
+    ],
     "answer": "C",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2021 Zhejiang Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2021 Zhejiang senior secondary school entrance exam",
     "difficulty": "medium",
     "notes": ""
   },
@@ -186,12 +278,21 @@
       "max_points": 3,
       "method": "rubric",
       "rubric": [
-        { "criterion": "moves variable terms to one side (3x minus 2x)", "points": 1 },
-        { "criterion": "moves constants to the other side (5 plus 7)", "points": 1 },
-        { "criterion": "correct final answer x equals 12", "points": 1 }
+        {
+          "criterion": "moves variable terms to one side (3x minus 2x)",
+          "points": 1
+        },
+        {
+          "criterion": "moves constants to the other side (5 plus 7)",
+          "points": 1
+        },
+        {
+          "criterion": "correct final answer x equals 12",
+          "points": 1
+        }
       ]
     },
-    "source": "2022 Jiangsu Zhongkao",
+    "source": "2022 Jiangsu senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -206,11 +307,17 @@
       "max_points": 2,
       "method": "rubric",
       "rubric": [
-        { "criterion": "finds correct roots 2 and 3", "points": 1 },
-        { "criterion": "writes correct factor form (x minus 2)(x minus 3)", "points": 1 }
+        {
+          "criterion": "finds correct roots 2 and 3",
+          "points": 1
+        },
+        {
+          "criterion": "writes correct factor form (x minus 2)(x minus 3)",
+          "points": 1
+        }
       ]
     },
-    "source": "2023 Sichuan Zhongkao",
+    "source": "2023 Sichuan senior secondary school entrance exam",
     "difficulty": "medium",
     "notes": "accept reordered factors"
   },
@@ -225,11 +332,17 @@
       "max_points": 2,
       "method": "rubric",
       "rubric": [
-        { "criterion": "applies Pythagorean theorem (3 squared plus 4 squared equals c squared)", "points": 1 },
-        { "criterion": "correct answer 5", "points": 1 }
+        {
+          "criterion": "applies Pythagorean theorem (3 squared plus 4 squared equals c squared)",
+          "points": 1
+        },
+        {
+          "criterion": "correct answer 5",
+          "points": 1
+        }
       ]
     },
-    "source": "2021 Anhui Zhongkao",
+    "source": "2021 Anhui senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": "accept: sqrt(25); 5.0"
   },
@@ -244,26 +357,42 @@
       "max_points": 3,
       "method": "rubric",
       "rubric": [
-        { "criterion": "uses addition or subtraction method correctly", "points": 1 },
-        { "criterion": "correct x equals 4", "points": 1 },
-        { "criterion": "correct y equals 3", "points": 1 }
+        {
+          "criterion": "uses addition or subtraction method correctly",
+          "points": 1
+        },
+        {
+          "criterion": "correct x equals 4",
+          "points": 1
+        },
+        {
+          "criterion": "correct y equals 3",
+          "points": 1
+        }
       ]
     },
-    "source": "2020 Henan Zhongkao",
+    "source": "2020 Henan senior secondary school entrance exam",
     "difficulty": "medium",
     "notes": "accept either order"
   },
-
   {
     "id": "english-001",
     "subject": "english",
     "type": "multiple_choice",
     "question": "Choose the correct article: I saw ___ elephant at the zoo.",
-    "options": ["A. a", "B. an", "C. the", "D. (no article)"],
+    "options": [
+      "A. a",
+      "B. an",
+      "C. the",
+      "D. (no article)"
+    ],
     "answer": "B",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2023 Beijing Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2023 Beijing senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -280,8 +409,11 @@
     ],
     "answer": "C",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2022 Guangdong Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2022 Guangdong senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -290,11 +422,19 @@
     "subject": "english",
     "type": "multiple_choice",
     "question": "Choose the synonym of 'happy':",
-    "options": ["A. sad", "B. angry", "C. joyful", "D. tired"],
+    "options": [
+      "A. sad",
+      "B. angry",
+      "C. joyful",
+      "D. tired"
+    ],
     "answer": "C",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2021 Shanghai Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2021 Shanghai senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -303,11 +443,19 @@
     "subject": "english",
     "type": "multiple_choice",
     "question": "Pick the correct past tense of 'go':",
-    "options": ["A. go", "B. goed", "C. gone", "D. went"],
+    "options": [
+      "A. go",
+      "B. goed",
+      "C. gone",
+      "D. went"
+    ],
     "answer": "D",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2023 Zhejiang Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2023 Zhejiang senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -316,11 +464,19 @@
     "subject": "english",
     "type": "multiple_choice",
     "question": "Identify the preposition in: 'The cat is under the table.'",
-    "options": ["A. cat", "B. is", "C. under", "D. table"],
+    "options": [
+      "A. cat",
+      "B. is",
+      "C. under",
+      "D. table"
+    ],
     "answer": "C",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2020 Jiangsu Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2020 Jiangsu senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -335,11 +491,17 @@
       "max_points": 2,
       "method": "rubric",
       "rubric": [
-        { "criterion": "object 'wall' becomes subject", "points": 1 },
-        { "criterion": "correct passive verb 'was painted' and 'by Tom'", "points": 1 }
+        {
+          "criterion": "object 'wall' becomes subject",
+          "points": 1
+        },
+        {
+          "criterion": "correct passive verb 'was painted' and 'by Tom'",
+          "points": 1
+        }
       ]
     },
-    "source": "2022 Hubei Zhongkao",
+    "source": "2022 Hubei senior secondary school entrance exam",
     "difficulty": "medium",
     "notes": "accept tense-equivalent forms"
   },
@@ -354,11 +516,17 @@
       "max_points": 2,
       "method": "rubric",
       "rubric": [
-        { "criterion": "identifies 'have' as wrong", "points": 1 },
-        { "criterion": "uses 'has' agreeing with 'He'", "points": 1 }
+        {
+          "criterion": "identifies 'have' as wrong",
+          "points": 1
+        },
+        {
+          "criterion": "uses 'has' agreeing with 'He'",
+          "points": 1
+        }
       ]
     },
-    "source": "2023 Beijing Zhongkao",
+    "source": "2023 Beijing senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -373,25 +541,38 @@
       "max_points": 2,
       "method": "rubric",
       "rubric": [
-        { "criterion": "mentions facing fear or danger or difficulty", "points": 1 },
-        { "criterion": "mentions bravery or not giving up", "points": 1 }
+        {
+          "criterion": "mentions facing fear or danger or difficulty",
+          "points": 1
+        },
+        {
+          "criterion": "mentions bravery or not giving up",
+          "points": 1
+        }
       ]
     },
-    "source": "2021 Sichuan Zhongkao",
+    "source": "2021 Sichuan senior secondary school entrance exam",
     "difficulty": "medium",
     "notes": ""
   },
-
   {
     "id": "physics-001",
     "subject": "physics",
     "type": "multiple_choice",
     "question": "The SI unit of force is:",
-    "options": ["A. joule", "B. watt", "C. newton", "D. pascal"],
+    "options": [
+      "A. joule",
+      "B. watt",
+      "C. newton",
+      "D. pascal"
+    ],
     "answer": "C",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2023 Beijing Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2023 Beijing senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -400,11 +581,19 @@
     "subject": "physics",
     "type": "multiple_choice",
     "question": "Which of the following is a vector quantity?",
-    "options": ["A. mass", "B. speed", "C. temperature", "D. velocity"],
+    "options": [
+      "A. mass",
+      "B. speed",
+      "C. temperature",
+      "D. velocity"
+    ],
     "answer": "D",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2022 Shanghai Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2022 Shanghai senior secondary school entrance exam",
     "difficulty": "medium",
     "notes": ""
   },
@@ -413,11 +602,19 @@
     "subject": "physics",
     "type": "multiple_choice",
     "question": "Speed is calculated as:",
-    "options": ["A. distance / time", "B. time / distance", "C. distance x time", "D. distance + time"],
+    "options": [
+      "A. distance / time",
+      "B. time / distance",
+      "C. distance x time",
+      "D. distance + time"
+    ],
     "answer": "A",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2021 Guangdong Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2021 Guangdong senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -426,11 +623,19 @@
     "subject": "physics",
     "type": "multiple_choice",
     "question": "Ohm's Law states that V = ?",
-    "options": ["A. I x R", "B. I / R", "C. R / I", "D. I + R"],
+    "options": [
+      "A. I x R",
+      "B. I / R",
+      "C. R / I",
+      "D. I + R"
+    ],
     "answer": "A",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2023 Zhejiang Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2023 Zhejiang senior secondary school entrance exam",
     "difficulty": "medium",
     "notes": ""
   },
@@ -445,11 +650,17 @@
       "max_points": 2,
       "method": "rubric",
       "rubric": [
-        { "criterion": "uses F equals m times a rearranged to a equals F divided by m", "points": 1 },
-        { "criterion": "correct value 5 with unit meters per second squared", "points": 1 }
+        {
+          "criterion": "uses F equals m times a rearranged to a equals F divided by m",
+          "points": 1
+        },
+        {
+          "criterion": "correct value 5 with unit meters per second squared",
+          "points": 1
+        }
       ]
     },
-    "source": "2022 Jiangsu Zhongkao",
+    "source": "2022 Jiangsu senior secondary school entrance exam",
     "difficulty": "medium",
     "notes": "accept: 5 m/s2; 5 m/s^2; meters per second squared"
   },
@@ -464,25 +675,38 @@
       "max_points": 2,
       "method": "rubric",
       "rubric": [
-        { "criterion": "mentions tendency or property of matter", "points": 1 },
-        { "criterion": "mentions resisting change in motion", "points": 1 }
+        {
+          "criterion": "mentions tendency or property of matter",
+          "points": 1
+        },
+        {
+          "criterion": "mentions resisting change in motion",
+          "points": 1
+        }
       ]
     },
-    "source": "2020 Anhui Zhongkao",
+    "source": "2020 Anhui senior secondary school entrance exam",
     "difficulty": "medium",
     "notes": ""
   },
-
   {
     "id": "chemistry-001",
     "subject": "chemistry",
     "type": "multiple_choice",
     "question": "The chemical symbol for gold is:",
-    "options": ["A. Go", "B. Gd", "C. Au", "D. Ag"],
+    "options": [
+      "A. Go",
+      "B. Gd",
+      "C. Au",
+      "D. Ag"
+    ],
     "answer": "C",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2023 Beijing Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2023 Beijing senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -491,11 +715,19 @@
     "subject": "chemistry",
     "type": "multiple_choice",
     "question": "Which of the following is an acidic solution?",
-    "options": ["A. pH = 2", "B. pH = 7", "C. pH = 9", "D. pH = 14"],
+    "options": [
+      "A. pH = 2",
+      "B. pH = 7",
+      "C. pH = 9",
+      "D. pH = 14"
+    ],
     "answer": "A",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2022 Shanghai Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2022 Shanghai senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -504,11 +736,19 @@
     "subject": "chemistry",
     "type": "multiple_choice",
     "question": "Water is composed of which two elements?",
-    "options": ["A. hydrogen and oxygen", "B. carbon and oxygen", "C. hydrogen and nitrogen", "D. carbon and hydrogen"],
+    "options": [
+      "A. hydrogen and oxygen",
+      "B. carbon and oxygen",
+      "C. hydrogen and nitrogen",
+      "D. carbon and hydrogen"
+    ],
     "answer": "A",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2021 Guangdong Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2021 Guangdong senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -517,11 +757,19 @@
     "subject": "chemistry",
     "type": "multiple_choice",
     "question": "The atomic number of an element equals the number of:",
-    "options": ["A. neutrons", "B. protons", "C. electrons plus neutrons", "D. protons plus neutrons"],
+    "options": [
+      "A. neutrons",
+      "B. protons",
+      "C. electrons plus neutrons",
+      "D. protons plus neutrons"
+    ],
     "answer": "B",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2023 Zhejiang Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2023 Zhejiang senior secondary school entrance exam",
     "difficulty": "medium",
     "notes": ""
   },
@@ -536,11 +784,17 @@
       "max_points": 2,
       "method": "rubric",
       "rubric": [
-        { "criterion": "coefficients balance hydrogen (2H2)", "points": 1 },
-        { "criterion": "coefficients balance oxygen (2H2O)", "points": 1 }
+        {
+          "criterion": "coefficients balance hydrogen (2H2)",
+          "points": 1
+        },
+        {
+          "criterion": "coefficients balance oxygen (2H2O)",
+          "points": 1
+        }
       ]
     },
-    "source": "2022 Jiangsu Zhongkao",
+    "source": "2022 Jiangsu senior secondary school entrance exam",
     "difficulty": "medium",
     "notes": "accept: 2H2+O2=2H2O; accept arrow or equals"
   },
@@ -555,25 +809,38 @@
       "max_points": 2,
       "method": "rubric",
       "rubric": [
-        { "criterion": "states pH equals 7", "points": 1 },
-        { "criterion": "states neither acidic nor basic or neutral", "points": 1 }
+        {
+          "criterion": "states pH equals 7",
+          "points": 1
+        },
+        {
+          "criterion": "states neither acidic nor basic or neutral",
+          "points": 1
+        }
       ]
     },
-    "source": "2020 Anhui Zhongkao",
+    "source": "2020 Anhui senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
-
   {
     "id": "biology-001",
     "subject": "biology",
     "type": "multiple_choice",
     "question": "Which organ is responsible for pumping blood in the human body?",
-    "options": ["A. liver", "B. heart", "C. lung", "D. kidney"],
+    "options": [
+      "A. liver",
+      "B. heart",
+      "C. lung",
+      "D. kidney"
+    ],
     "answer": "B",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2023 Beijing Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2023 Beijing senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -582,11 +849,19 @@
     "subject": "biology",
     "type": "multiple_choice",
     "question": "Plants make their food through which process?",
-    "options": ["A. respiration", "B. digestion", "C. photosynthesis", "D. transpiration"],
+    "options": [
+      "A. respiration",
+      "B. digestion",
+      "C. photosynthesis",
+      "D. transpiration"
+    ],
     "answer": "C",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2022 Shanghai Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2022 Shanghai senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -595,11 +870,19 @@
     "subject": "biology",
     "type": "multiple_choice",
     "question": "The basic structural unit of life is:",
-    "options": ["A. atom", "B. molecule", "C. cell", "D. tissue"],
+    "options": [
+      "A. atom",
+      "B. molecule",
+      "C. cell",
+      "D. tissue"
+    ],
     "answer": "C",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2021 Guangdong Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2021 Guangdong senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -608,11 +891,19 @@
     "subject": "biology",
     "type": "multiple_choice",
     "question": "Which gas do humans mainly exhale?",
-    "options": ["A. oxygen", "B. nitrogen", "C. carbon dioxide", "D. hydrogen"],
+    "options": [
+      "A. oxygen",
+      "B. nitrogen",
+      "C. carbon dioxide",
+      "D. hydrogen"
+    ],
     "answer": "C",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2023 Zhejiang Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2023 Zhejiang senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -627,12 +918,21 @@
       "max_points": 3,
       "method": "rubric",
       "rubric": [
-        { "criterion": "reactants include carbon dioxide and water", "points": 1 },
-        { "criterion": "products include glucose and oxygen", "points": 1 },
-        { "criterion": "mentions light or sunlight as required", "points": 1 }
+        {
+          "criterion": "reactants include carbon dioxide and water",
+          "points": 1
+        },
+        {
+          "criterion": "products include glucose and oxygen",
+          "points": 1
+        },
+        {
+          "criterion": "mentions light or sunlight as required",
+          "points": 1
+        }
       ]
     },
-    "source": "2022 Jiangsu Zhongkao",
+    "source": "2022 Jiangsu senior secondary school entrance exam",
     "difficulty": "medium",
     "notes": "accept: sugar instead of glucose"
   },
@@ -647,25 +947,38 @@
       "max_points": 2,
       "method": "rubric",
       "rubric": [
-        { "criterion": "identifies transport function", "points": 1 },
-        { "criterion": "mentions oxygen specifically", "points": 1 }
+        {
+          "criterion": "identifies transport function",
+          "points": 1
+        },
+        {
+          "criterion": "mentions oxygen specifically",
+          "points": 1
+        }
       ]
     },
-    "source": "2020 Anhui Zhongkao",
+    "source": "2020 Anhui senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
-
   {
     "id": "history-001",
     "subject": "history",
     "type": "multiple_choice",
     "question": "The first emperor of unified China was:",
-    "options": ["A. Han Wudi", "B. Qin Shi Huang", "C. Tang Taizong", "D. Kangxi"],
+    "options": [
+      "A. Han Wudi",
+      "B. Qin Shi Huang",
+      "C. Tang Taizong",
+      "D. Kangxi"
+    ],
     "answer": "B",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2023 Beijing Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2023 Beijing senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -674,11 +987,19 @@
     "subject": "history",
     "type": "multiple_choice",
     "question": "The Silk Road was a trade route connecting China with:",
-    "options": ["A. the Americas", "B. sub-Saharan Africa", "C. Central Asia and Europe", "D. Australia"],
+    "options": [
+      "A. the Americas",
+      "B. sub-Saharan Africa",
+      "C. Central Asia and Europe",
+      "D. Australia"
+    ],
     "answer": "C",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2022 Shanghai Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2022 Shanghai senior secondary school entrance exam",
     "difficulty": "medium",
     "notes": ""
   },
@@ -687,11 +1008,19 @@
     "subject": "history",
     "type": "multiple_choice",
     "question": "The Four Great Inventions of ancient China include printing, gunpowder, the compass, and:",
-    "options": ["A. paper", "B. the wheel", "C. glass", "D. steel"],
+    "options": [
+      "A. paper",
+      "B. the wheel",
+      "C. glass",
+      "D. steel"
+    ],
     "answer": "A",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2021 Guangdong Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2021 Guangdong senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -706,25 +1035,38 @@
       "max_points": 2,
       "method": "rubric",
       "rubric": [
-        { "criterion": "mentions trade or commerce", "points": 1 },
-        { "criterion": "mentions cultural or idea exchange", "points": 1 }
+        {
+          "criterion": "mentions trade or commerce",
+          "points": 1
+        },
+        {
+          "criterion": "mentions cultural or idea exchange",
+          "points": 1
+        }
       ]
     },
-    "source": "2020 Zhejiang Zhongkao",
+    "source": "2020 Zhejiang senior secondary school entrance exam",
     "difficulty": "medium",
     "notes": ""
   },
-
   {
     "id": "geography-001",
     "subject": "geography",
     "type": "multiple_choice",
     "question": "The longest river in China is:",
-    "options": ["A. Yellow River", "B. Yangtze River", "C. Pearl River", "D. Heilongjiang"],
+    "options": [
+      "A. Yellow River",
+      "B. Yangtze River",
+      "C. Pearl River",
+      "D. Heilongjiang"
+    ],
     "answer": "B",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2023 Beijing Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2023 Beijing senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": ""
   },
@@ -733,11 +1075,19 @@
     "subject": "geography",
     "type": "multiple_choice",
     "question": "Which region is known as the 'Roof of the World'?",
-    "options": ["A. Xinjiang", "B. Inner Mongolia", "C. Tibet (Xizang)", "D. Qinghai"],
+    "options": [
+      "A. Xinjiang",
+      "B. Inner Mongolia",
+      "C. Tibet (Xizang)",
+      "D. Qinghai"
+    ],
     "answer": "C",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2022 Shanghai Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2022 Shanghai senior secondary school entrance exam",
     "difficulty": "easy",
     "notes": "accept: Tibet; Xizang"
   },
@@ -746,11 +1096,19 @@
     "subject": "geography",
     "type": "multiple_choice",
     "question": "The capital of China is located on which river system?",
-    "options": ["A. Yangtze", "B. Pearl", "C. Hai", "D. Yellow"],
+    "options": [
+      "A. Yangtze",
+      "B. Pearl",
+      "C. Hai",
+      "D. Yellow"
+    ],
     "answer": "C",
     "answer_type": "letter",
-    "scoring": { "max_points": 1, "method": "exact" },
-    "source": "2021 Guangdong Zhongkao",
+    "scoring": {
+      "max_points": 1,
+      "method": "exact"
+    },
+    "source": "2021 Guangdong senior secondary school entrance exam",
     "difficulty": "hard",
     "notes": ""
   },
@@ -765,11 +1123,17 @@
       "max_points": 2,
       "method": "rubric",
       "rubric": [
-        { "criterion": "names both Yangtze and Yellow River", "points": 1 },
-        { "criterion": "correctly states the Yangtze is longer", "points": 1 }
+        {
+          "criterion": "names both Yangtze and Yellow River",
+          "points": 1
+        },
+        {
+          "criterion": "correctly states the Yangtze is longer",
+          "points": 1
+        }
       ]
     },
-    "source": "2020 Jiangsu Zhongkao",
+    "source": "2020 Jiangsu senior secondary school entrance exam",
     "difficulty": "medium",
     "notes": "accept: Chang Jiang for Yangtze; Huang He for Yellow River"
   }

@@ -1,13 +1,14 @@
-# Google ADK — Zhongkao Solver
+# Google ADK — Entrance Exam Solver
 
-Self-contained solver for the shared Zhongkao dataset, implemented with Google's
+Self-contained solver for the shared senior secondary school entrance exam
+dataset, implemented with Google's
 [Agent Development Kit (ADK)](https://github.com/google/adk-python).
 
 ## Design (idiomatic ADK)
 
 This implementation uses ADK's core primitive: the **`LlmAgent`**.
 
-- **Single LlmAgent** (`ZhongkaoSolver`) — name + model + instruction + output_schema.
+- **Single LlmAgent** (`ExamSolver`) — name + model + instruction + output_schema.
 - **Structured output via `output_schema`** — ADK constrains the model's final
   response to the `AgentAnswer` Pydantic schema (response + reasoning). The final
   response text is JSON matching the schema; we parse it back.

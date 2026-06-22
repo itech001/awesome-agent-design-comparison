@@ -31,7 +31,7 @@ Key fields:
 - `id` — `<subject>-<seq>`, globally unique.
 - `answer_type` — `letter` (MC, exact match) or `text` (rubric).
 - `scoring` — drives grader behavior: `exact` for MC, `rubric` for short answer.
-- `source` — original Zhongkao paper the question is based on.
+- `source` — original senior secondary school entrance exam paper the question is based on.
 - `notes` — accepted-answer hints for the grader (synonyms, equivalent forms).
 
 ## Validation
