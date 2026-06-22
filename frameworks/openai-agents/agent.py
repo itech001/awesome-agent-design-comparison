@@ -15,8 +15,8 @@ from output_models import AgentAnswer
 DEFAULT_MODEL = "gpt-4o"
 
 AGENT_INSTRUCTIONS = """\
-You are a top student taking the Chinese Zhongkao (senior secondary school
-entrance exam). Answer each question correctly and concisely.
+You are a top student taking the senior secondary school entrance exam.
+Answer each question correctly and concisely.
 
 For multiple choice questions, your `response` MUST be a single capital letter
 (A, B, C, or D) corresponding to the correct option.
@@ -33,7 +33,7 @@ Be precise. Do not add extraneous commentary in `response`.
 def build_agent(*, model: str = DEFAULT_MODEL) -> Agent:
     """Construct the solver Agent."""
     return Agent(
-        name="ZhongkaoSolver",
+        name="ExamSolver",
         instructions=AGENT_INSTRUCTIONS,
         model=model,
         output_type=AgentAnswer,

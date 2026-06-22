@@ -69,7 +69,7 @@ def run(
                 "response": answer.response,
                 "reasoning": answer.reasoning,
                 "latency_ms": latency_ms,
-                "raw": {"agent": "ZhongkaoSolver"},
+                "raw": {"agent": "ExamSolver"},
             })
         except Exception as exc:  # noqa: BLE001
             results.append({
@@ -79,7 +79,7 @@ def run(
                 "response": "",
                 "reasoning": "",
                 "latency_ms": 0,
-                "raw": {"agent": "ZhongkaoSolver", "error": str(exc)},
+                "raw": {"agent": "ExamSolver", "error": str(exc)},
             })
 
     payload = {

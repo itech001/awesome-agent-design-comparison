@@ -68,7 +68,7 @@ def build_prompt(q: dict[str, Any]) -> str:
 
 def _default_runner(agent: LlmAgent, prompt: str) -> str:
     """Run the agent via ADK's async Runner and return the final response text."""
-    app_name = "zhongkao_solver"
+    app_name = "exam_solver"
     user_id = "solver"
 
     async def _run() -> str:

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://awesome-agent-design-comparison/contract/question.schema.json",
-  "title": "Zhongkao Question",
+  "title": "Entrance Exam Question",
   "type": "object",
   "required": ["id", "subject", "type", "question", "answer", "answer_type", "scoring", "source", "difficulty"],
   "additionalProperties": false,

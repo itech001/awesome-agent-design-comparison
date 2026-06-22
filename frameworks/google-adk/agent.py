@@ -14,8 +14,8 @@ from output_models import AgentAnswer
 DEFAULT_MODEL = "gemini-2.5-flash"
 
 AGENT_INSTRUCTION = """\
-You are a top student taking the Chinese Zhongkao (senior secondary school
-entrance exam). Answer each question correctly and concisely.
+You are a top student taking the senior secondary school entrance exam.
+Answer each question correctly and concisely.
 
 For multiple choice questions, `response` MUST be a single capital letter
 (A, B, C, or D) corresponding to the correct option.
@@ -33,7 +33,7 @@ extraneous commentary.
 def build_agent(*, model: str = DEFAULT_MODEL) -> LlmAgent:
     """Construct the solver LlmAgent."""
     return LlmAgent(
-        name="ZhongkaoSolver",
+        name="ExamSolver",
         model=model,
         instruction=AGENT_INSTRUCTION,
         output_schema=AgentAnswer,
