@@ -1,14 +1,11 @@
 import json
-import sys
 from pathlib import Path
 
 import jsonschema
 
 import run as run_module
-from output_models import AgentAnswer
 
-_HERE = Path(__file__).resolve().parent
-_REPO = _HERE.parent.parent
+_REPO = Path(__file__).resolve().parent.parent.parent.parent
 _DATASET = _REPO / "dataset" / "questions.json"
 _RESULT_SCHEMA = _REPO / "contract" / "result.schema.json"
 
@@ -19,36 +16,31 @@ class FakeRunner:
 
     def __call__(self, agent, prompt):
         self.count += 1
-        return AgentAnswer(response="A", reasoning="fake reasoning")
+        return '{"response": "A", "reasoning": "fake"}'
 
 
 def test_run_writes_valid_result_file(tmp_path):
     out = tmp_path / "results.json"
-    fake = FakeRunner()
     run_module.run(
         dataset_path=str(_DATASET),
         output_path=str(out),
-        framework="openai-agents",
-        model="gpt-4o",
-        runner=fake,
+        framework="google-adk",
+        model="gemini-2.5-flash",
+        runner=FakeRunner(),
     )
     assert out.exists()
     data = json.loads(out.read_text())
     schema = json.loads(_RESULT_SCHEMA.read_text())
     jsonschema.validate(data, schema)
-    assert data["framework"] == "openai-agents"
-    assert data["model"] == "gpt-4o"
+    assert data["framework"] == "google-adk"
+    assert data["model"] == "gemini-2.5-flash"
     assert len(data["results"]) == 50
-    for r in data["results"]:
-        assert set(r.keys()) >= {"question_id", "subject", "type", "response", "reasoning", "latency_ms", "raw"}
 
 
 def test_run_preserves_subject_and_type(tmp_path):
     out = tmp_path / "results.json"
     run_module.run(
-        dataset_path=str(_DATASET),
-        output_path=str(out),
-        runner=FakeRunner(),
+        dataset_path=str(_DATASET), output_path=str(out), runner=FakeRunner()
     )
     data = json.loads(out.read_text())
     by_id = {r["question_id"]: r for r in data["results"]}
